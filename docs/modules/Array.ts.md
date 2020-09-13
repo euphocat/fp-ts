@@ -232,6 +232,18 @@ Added in v2.0.0
 export declare const compact: <A>(fa: Option<A>[]) => A[]
 ```
 
+Takes an array of `Option` and filter out the `none` elements to give back an array of
+the values contained in `some`.
+
+**Example**
+
+```ts
+import { none, some, fromNullable } from 'fp-ts/Option'
+import { compact } from 'fp-ts/Array'
+
+assert.deepStrictEqual(compact([some(1), none, some(6), some(10), none]), [1, 6, 10])
+```
+
 Added in v2.0.0
 
 ## separate
