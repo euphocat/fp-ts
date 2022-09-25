@@ -43,7 +43,7 @@
     "@types/prettier": "1.10.0",
     "benchmark": "2.1.4",
     "docs-ts": "0.5.1",
-    "doctoc": "1.4.0",
+    "doctoc": "2.2.1",
     "dtslint": "github:gcanti/dtslint",
     "fast-check": "1.25.1",
     "glob": "7.1.6",
